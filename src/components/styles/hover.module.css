@@ -1,0 +1,377 @@
+/* Glowing text effects */
+.glowingText {
+  transition: all 0.3s ease;
+}
+
+.glowingText:hover {
+  color: #00ff88;
+  text-shadow: 0 0 10px rgba(0, 255, 136, 0.5),
+               0 0 20px rgba(0, 255, 136, 0.3),
+               0 0 30px rgba(0, 255, 136, 0.1);
+}
+
+/* Glowing card effects */
+.glowingCard {
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.glowingCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.2),
+              0 0 40px rgba(0, 255, 136, 0.1);
+  border-color: rgba(0, 255, 136, 0.3);
+}
+
+/* Glowing icon effects */
+.glowingIcon {
+  transition: all 0.3s ease;
+}
+
+.glowingIcon:hover {
+  color: #00ff88;
+  filter: drop-shadow(0 0 8px rgba(0, 255, 136, 0.5));
+  transform: scale(1.1);
+}
+
+/* Glowing button effects */
+.glowingButton {
+  transition: all 0.3s ease;
+}
+
+.glowingButton:hover {
+  color: #00ff88;
+  text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+  transform: translateY(-1px);
+}
+
+/* Hero section - Purple */
+.heroGlow {
+  transition: all 0.3s ease;
+}
+
+.heroGlow:hover {
+  color: #9b4dca;
+  text-shadow: 0 0 10px rgba(155, 77, 202, 0.5),
+               0 0 20px rgba(155, 77, 202, 0.3),
+               0 0 30px rgba(155, 77, 202, 0.1);
+}
+
+.heroCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(155, 77, 202, 0.2),
+              0 0 40px rgba(155, 77, 202, 0.1);
+  border-color: rgba(155, 77, 202, 0.3);
+}
+
+/* Projects section - Blue */
+.projectGlow {
+  transition: all 0.3s ease;
+}
+
+.projectGlow:hover {
+  color: #4a90e2;
+  text-shadow: 0 0 10px rgba(74, 144, 226, 0.5),
+               0 0 20px rgba(74, 144, 226, 0.3),
+               0 0 30px rgba(74, 144, 226, 0.1);
+}
+
+.projectCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(74, 144, 226, 0.2),
+              0 0 40px rgba(74, 144, 226, 0.1);
+  border-color: rgba(74, 144, 226, 0.3);
+}
+
+/* Education section - Green */
+.educationGlow {
+  transition: all 0.3s ease;
+}
+
+.educationGlow:hover {
+  color: #50e3c2;
+  text-shadow: 0 0 10px rgba(80, 227, 194, 0.5),
+               0 0 20px rgba(80, 227, 194, 0.3),
+               0 0 30px rgba(80, 227, 194, 0.1);
+}
+
+.educationCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(80, 227, 194, 0.2),
+              0 0 40px rgba(80, 227, 194, 0.1);
+  border-color: rgba(80, 227, 194, 0.3);
+}
+
+/* Experience section - Orange */
+.experienceGlow {
+  transition: all 0.3s ease;
+}
+
+.experienceGlow:hover {
+  color: #f5a623;
+  text-shadow: 0 0 10px rgba(245, 166, 35, 0.5),
+               0 0 20px rgba(245, 166, 35, 0.3),
+               0 0 30px rgba(245, 166, 35, 0.1);
+}
+
+.experienceCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(245, 166, 35, 0.2),
+              0 0 40px rgba(245, 166, 35, 0.1);
+  border-color: rgba(245, 166, 35, 0.3);
+}
+
+/* Skills section - Red */
+.skillsGlow {
+  transition: all 0.3s ease;
+}
+
+.skillsGlow:hover {
+  color: #ff5252;
+  text-shadow: 0 0 10px rgba(255, 82, 82, 0.5),
+               0 0 20px rgba(255, 82, 82, 0.3),
+               0 0 30px rgba(255, 82, 82, 0.1);
+}
+
+.skillsCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(255, 82, 82, 0.2),
+              0 0 40px rgba(255, 82, 82, 0.1);
+  border-color: rgba(255, 82, 82, 0.3);
+}
+
+/* Social Icons - Rainbow effect */
+.socialIcon {
+  transition: all 0.3s ease;
+}
+
+.socialIcon:hover {
+  transform: scale(1.1);
+}
+
+.socialIcon:nth-child(1):hover { color: #ff5252; filter: drop-shadow(0 0 8px rgba(255, 82, 82, 0.5)); }
+.socialIcon:nth-child(2):hover { color: #f5a623; filter: drop-shadow(0 0 8px rgba(245, 166, 35, 0.5)); }
+.socialIcon:nth-child(3):hover { color: #50e3c2; filter: drop-shadow(0 0 8px rgba(80, 227, 194, 0.5)); }
+.socialIcon:nth-child(4):hover { color: #4a90e2; filter: drop-shadow(0 0 8px rgba(74, 144, 226, 0.5)); }
+.socialIcon:nth-child(5):hover { color: #9b4dca; filter: drop-shadow(0 0 8px rgba(155, 77, 202, 0.5)); }
+
+/* Footer section - Rainbow */
+.footerGlow {
+  transition: all 0.3s ease;
+}
+
+.footerGlow:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3),
+               0 0 20px rgba(255, 255, 255, 0.2),
+               0 0 30px rgba(255, 255, 255, 0.1);
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.initialsGlow {
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ffa500,
+    #ffff00,
+    #00ff00,
+    #00ffff,
+    #0000ff,
+    #ff00ff,
+    #ff0000
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradientFlow 8s linear infinite;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+}
+
+/* Common card styles */
+.heroCard,
+.projectCard,
+.educationCard,
+.experienceCard,
+.skillsCard {
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+/* Nav button animations */
+.navButton {
+  position: relative;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  background: transparent;
+  border-radius: 8px;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+}
+
+.navButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.05) 50%,
+    transparent 100%
+  );
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+}
+
+.navButton:hover::before {
+  transform: translateX(100%);
+}
+
+.navButton::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #00ff88,
+    transparent
+  );
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.navButton:hover::after {
+  width: 100%;
+}
+
+.navButton:hover {
+  color: #fff;
+  text-shadow: 0 0 8px rgba(0, 255, 136, 0.5);
+  transform: translateY(-1px);
+}
+
+.navButtonActive {
+  color: #00ff88;
+  text-shadow: 0 0 8px rgba(0, 255, 136, 0.5);
+}
+
+.navButtonActive::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #00ff88,
+    transparent
+  );
+  transform: translateX(-50%);
+}
+
+/* Contact form effects */
+.contactGlow {
+  transition: all 0.3s ease;
+}
+
+.contactGlow:hover {
+  color: #00ff88;
+  text-shadow: 0 0 10px rgba(0, 255, 136, 0.5),
+               0 0 20px rgba(0, 255, 136, 0.3),
+               0 0 30px rgba(0, 255, 136, 0.1);
+}
+
+.inputGlow {
+  transition: all 0.3s ease;
+}
+
+.inputGlow:focus {
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.2);
+}
+
+.buttonGlow {
+  position: relative;
+  overflow: hidden;
+}
+
+.buttonGlow::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    transparent 0%,
+    rgba(0, 255, 136, 0.1) 50%,
+    transparent 100%
+  );
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+}
+
+.buttonGlow:hover::before {
+  transform: translateX(100%);
+}
+
+.buttonGlow:hover {
+  border-color: rgba(0, 255, 136, 0.5);
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.2);
+  text-shadow: 0 0 8px rgba(0, 255, 136, 0.5);
+}
+
+/* Resume button effects */
+.resumeButton {
+  position: relative;
+  overflow: hidden;
+}
+
+.resumeButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 255, 136, 0.2),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.resumeButton:hover::before {
+  left: 100%;
+}
+
+.resumeButton svg {
+  transition: transform 0.3s ease;
+}
+
+.resumeButton:hover svg {
+  transform: translateY(2px);
+} 
