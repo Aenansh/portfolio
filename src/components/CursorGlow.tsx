@@ -13,12 +13,12 @@ const CursorGlow = () => {
     
     // Check if the cursor is over a clickable element
     const target = e.target as HTMLElement;
-    const isClickable = 
+    const isClickable: boolean = 
       window.getComputedStyle(target).cursor === 'pointer' ||
       target.tagName.toLowerCase() === 'a' ||
       target.tagName.toLowerCase() === 'button' ||
-      target.closest('a') ||
-      target.closest('button');
+      target.closest('a') !== null ||
+      target.closest('button') !== null;
     
     setIsPointer(isClickable);
 
